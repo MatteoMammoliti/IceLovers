@@ -1,0 +1,130 @@
+<!--dev: Matteo Mammoliti ! contacts: matti.mm04@gmail.com-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--IMPORT FONT GOOGLE E FOGLIO DI STILE-->
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>IceLovers - Porto</title>
+        <link rel="stylesheet" href="style_en.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ddb2ee09d7.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <!--HEADER-->
+    <section class="header">
+        <nav>
+            <a href="english.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="english.html">HOME</a></li>
+                    <li><a href="about_en.html">ABOUT US</a></li>
+                    <li><a href="sede1.html">MENU R. DOS ClERIGOS</a></li>
+                    <li><a href="sede2.html">MENU R. JOAO BARROS</a></li>
+                    <li><a href="index.html">PORTUGUESE</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <!--CASELLE DI TESTO CENTRALI-->
+    <div class="text-box">
+        <h1>IceLovers</h1>
+        <p>Artisanal ice cream shop with natural flavor in Porto</p>
+        <a href="https://goo.gl/maps/7rRDHEWionf5Rek27" class="hero-btn">VISIT-US</a>
+    </div>
+</section>
+
+<!--FOTO PIATTI-->
+<section class="piatti">
+    <h1>Our deligths</h1>
+    <p>Some of the delights you can enjoy at IceLovers</p>
+    <div class="row">
+        <div class="piatti-col">
+            <img src="images/piatto1.png">
+            <p>The combination of orange and chocolate flavors<p>
+        </div>
+        <div class="piatti-col">
+            <img src="images/piatto2.png">
+            <p>Waffle with caramel ice cream<p>
+        </div>
+        <div class="piatti-col">
+            <img src="images/piatto3.png">
+            <p>Delicious mango ice cream<p>
+        </div>
+        <div class="piatti-col">
+            <img src="images/piatto4.png">
+            <p>Black Cookies ice cream<p>
+        </div>
+    </div>
+</section>
+
+<!--RECENSIONI-->
+<section class="testimonials">
+    <h1>Our feedbacks</h1>
+    <p>What our customers say after tasting our delights</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/utente.png">
+            <div>
+                <p>Genuine flavor artisanal ice cream. The best dark chocolate and mango ice cream. I also recommend vanilla and milk chocolate. Crepes, top quality.</p>
+                <h3>paulasilvar 02-2022</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/utente.png">
+            <div>
+                <p>This is without a doubt the best ice cream shop I know and I know many around the country.<br> The ice creams are of exceptional quality.</p>
+                <h3>joseb5114 10-2021</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--BANNER-->
+<section class="banner">
+    <h1>If you love dessert, IceLover is the place for you.</h1>
+</section>
+
+<!--FOOTER-->
+<section class="footer">
+    <img src="images/logo_footer.png">
+    <h1>IceLovers</h1>
+    <p>Rua dos Clérigos 61, 4050 Porto - R. João de Barros, 4150 Porto</p>
+    <h4>Phone numbers</h4>
+    <p>(+351) 917 826 124 - (+351) 917 515 434 - (+351) 222 052 712</p>
+    <h4>Email</h4>
+    <p>febetex@sapo.pt</p>
+    <h4>Opening time</h4>
+    <p>Mon-Sun 11:00 - 19:00</p>
+    <div  class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+</section>
+
+<!--SCRIPT MENU-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
